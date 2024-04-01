@@ -43,7 +43,9 @@
 
         <div class=" flex flex-row py-12 space-x-12 ">
             <div class="flex flex-col space-y-8 justify-center w-2/3">
-                <h2 class="text-4xl font-semibold"> Hi all, I'm Jithin K Johnson </h2>
+                <div class="typewriter">
+                    <h2 class="text-4xl font-semibold "> Hi all, I'm Jithin K Johnson </h2>
+                </div>
                 <p class="leading-relaxed text-xl">
                     Experienced Flutter Developer with 3 years of expertise in building high-quality mobile
                     applications, delivering exceptional user experiences. Proficient in UI/UX design principles,
@@ -81,7 +83,7 @@
 
         <section class="py-4">
 
-            <h2 class="text-3xl font-semibold ">Some of my favourite tools</h2>
+            <h2 class="text-3xl font-semibold">Some of my favourite tools</h2>
 
             <div class="py-10 space-y-10">
                 <div class="flex justify-start items-center space-x-10">
@@ -92,18 +94,20 @@
                     <img src="assets/rest _api.jpeg" alt="rest_logo" class="h-24">
                     <img src="assets/github_logo.png" alt="github_logo" class="h-16">
                     <img src="assets/vscode_logo.png" alt="vscode_logo" class="h-16">
-
-
-
-
                 </div>
+
                 <div class="flex justify-start space-x-10">
                     <img src="assets/html_logo.png" alt="html_logo" class="h-16">
                     <img src="assets/nextjs-logo.webp" alt="nextjs_logo" class=" h-16">
                     <img src="assets/tailwind_logo.png" alt="tailwind_css" class="h-16">
                     <img src="assets/css_logo.png" alt="css-logo" class="h-16">
+                </div>
 
-
+                <div class="flex justify-start space-x-10">
+                    <img src="assets/getx_logo.png" alt="html_logo" class="h-16">
+                    <img src="assets/mobx_logo.png" alt="nextjs_logo" class=" h-16">
+                    <img src="assets/bloc_logo.svg" alt="tailwind_css" class="h-16">
+                    <!-- <img src="assets/css_logo.png" alt="css-logo" class="h-16"> -->
                 </div>
             </div>
         </section>
@@ -124,7 +128,7 @@
                     <Img src="assets/centrric_logo.png" class="w-1/6"></Img>
                     <div class="space-y-1 flex flex-col">
 
-                        <h3 class="text-xl">Centtric Innovation Pvt Ltd</h3>
+                        <h3 class="text-xl font-semibold">Centtric Innovation Pvt Ltd</h3>
                         <h3 class="text-lg">Flutter Developer</h3>
                         <h4 class="text-base text-gray-600">Feb 2021 - Present</h4>
 
@@ -284,6 +288,50 @@
         .animate-flip:hover {
             animation: flip 1s ease;
 
+        }
+
+        .typewriter h2 {
+            overflow: hidden;
+            /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid orange;
+            /* The typwriter cursor */
+            white-space: nowrap;
+            /* Keeps the content on a single line */
+            margin: 0 auto;
+            /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .10em;
+            /* Adjust as needed */
+            animation:
+                typing 3.5s steps(40, end),
+                blink-caret .75s step-end infinite;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: orange;
+            }
+
+            /* 100% {
+                border-color: transparent
+            } */
         }
     </style>
     </body>
