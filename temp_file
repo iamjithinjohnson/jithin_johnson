@@ -1,0 +1,63 @@
+<section class="my-8">
+    <h1 class="text-3xl font-semibold">Personal Projects</h1>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+        <!-- First Project -->
+        <a href="project_details.html">
+            <div
+                class="bg-white shadow-md rounded-md p-4 hover:shadow-lg transform transition duration-300 ease-in-out">
+                <img src="https://via.placeholder.com/400" alt="Project 1" class="w-full rounded-md mb-4 bg-auto">
+                <h2 class="text-xl font-semibold mb-2">Project 1</h2>
+                <p class="text-gray-700">Description of Project 1</p>
+            </div>
+        </a>
+
+        <!-- Second Project -->
+        <div class="bg-white shadow-md rounded-md p-4 hover:shadow-lg transform transition duration-300 ease-in-out">
+            <img src="https://via.placeholder.com/200" alt="Project 2" class="w-full rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-2">Project 2</h2>
+            <p class="text-gray-700">Description of Project 2</p>
+        </div>
+
+        <!-- Add more projects here -->
+    </div>
+
+    <h1 class="py-8 text-3xl font-semibold">Project Experience</h1>
+
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+        <!-- First Project -->
+        <a href="project_details.html">
+            <div
+                class="bg-white shadow-md rounded-md p-4 hover:shadow-lg transform transition duration-300 ease-in-out">
+                <img src="https://via.placeholder.com/400" alt="Project 1" class="w-full rounded-md mb-4 bg-auto">
+                <h2 class="text-xl font-semibold mb-2">Project 1</h2>
+                <p class="text-gray-700">Description of Project 1</p>
+            </div>
+        </a>
+
+        <!-- Second Project -->
+        <div class="bg-white shadow-md rounded-md p-4 hover:shadow-lg transform transition duration-300 ease-in-out">
+            <img src="https://via.placeholder.com/200" alt="Project 2" class="w-full rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-2">Project 2</h2>
+            <p class="text-gray-700">Description of Project 2</p>
+        </div>
+
+        <!-- Third Project -->
+        <div class="bg-white shadow-md rounded-md p-4 hover:shadow-lg transform transition duration-300 ease-in-out">
+            <img src="https://via.placeholder.com/200" alt="Project 2" class="w-full rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-2">Project 2</h2>
+            <p class="text-gray-700">Description of Project 2</p>
+        </div>
+
+        <!-- Fourth Project -->
+        <div class="bg-white shadow-md rounded-md p-4 hover:shadow-lg transform transition duration-300 ease-in-out">
+            <img src="https://via.placeholder.com/200" alt="Project 2" class="w-full rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-2">Project 2</h2>
+            <p class="text-gray-700">Description of Project 2</p>
+        </div>
+
+        <!-- Add more projects here -->
+    </div>
+</section>
